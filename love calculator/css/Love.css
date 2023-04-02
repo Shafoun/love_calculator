@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    background-color: #d7385c;
+    justify-content: center;
+    padding: 10px;
+    margin: 0 6px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border: 2px solid #d7385c;
+    border-radius: 10px;
+}
+body{
+    background: rgb(248, 241, 243);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 80vh;
+    width: 60vw;
+    border-radius: 50px;
+    box-shadow: rgba(114, 0, 245, 0.3) 0px 50px 100px -20px, rgba(114, 0, 245, 0.3) 0px 30px 60px -30px, rgba(114, 0, 245, 0.3) 0px -2px 6px 0px inset;
+}
+.Contain{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+   
+}
+.Contain h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: #d7385c;
+}
+.imput_item{
+    display: flex;
+}
+.imput_item input{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border: 2px solid #d7385c;
+    padding: 20px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+#print{
+    display: flex;
+    text-align: center;
+    margin: 20px;
+    padding: 20px 50px;
+    font-size: 20px;
+    background-color: #d7385c;
+    border-radius: 10px;
+    box-shadow: rgba(114, 0, 245, 0.3) 0px 50px 100px -20px, rgba(114, 0, 245, 0.3) 0px 30px 60px -30px, rgba(114, 0, 245, 0.3) 0px -2px 6px 0px inset;
+    border: 2px solid #d7385c;
+    color: #fff;
+
+}
+#statement{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 50px;
+    font-size: 20px;
+    background-color: #d7385c;
+    border-radius: 10px;
+    box-shadow: rgba(114, 0, 245, 0.3) 0px 50px 100px -20px, rgba(114, 0, 245, 0.3) 0px 30px 60px -30px, rgba(114, 0, 245, 0.3) 0px -2px 6px 0px inset;
+    border: 2px solid #d7385c;
+    color: #fff;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+
+    border-radius: 10px;
+    box-shadow: rgba(114, 0, 245, 0.3) 0px 50px 100px -20px, rgba(114, 0, 245, 0.3) 0px 30px 60px -30px, rgba(114, 0, 245, 0.3) 0px -2px 6px 0px inset;
+    border: 2px solid #d7385c;
+    color: #080000;
+}

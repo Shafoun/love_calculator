@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/Love.css">
+    <title>Love Calclutor</title>
+</head>
+<body>
+    <div class="container">
+        <div class="Contain">
+            <h3>CEO & Owner <br>
+                <p><b>Safoun Bin Chowdhury</b></p>
+            </h3>
+           
+            <h1>Love Calclutor</h1><br>
+            <div class="imput_item">
+                <input type="text" placeholder="Your Name" id="NameOne" onfocus="this.value=''">
+                <input type="text" placeholder="Your Love" id="NameTwo" onfocus="this.value=''">
+            </div><br><br>
+            <a href="#" onclick="love()">Calculate</a>
+
+            <p id="print">Your RelationShip Result here</p>
+            <p id="statement"></p>
+            
+        </div>
+    </div>
+    <script>
+        function love(){
+       var name1 = document.getElementById("NameOne").value;
+       var name2 = document.getElementById("NameTwo").value;
+       
+       if(name1.length<=2){
+        alert("Enter At least 2 Character")
+       }
+        
+       if(name2.length<=2){
+        alert("Enter At least 2 Character")
+       }
+       else{
+        var random = Math.floor(Math.random()*100);
+        document.getElementById("print").innerHTML = name1 + "and" + name2 + "=" +random + "%" + "of love";
+       
+       }
+       if(random<=10 || random<=50){
+        document.getElementById("statement").innerHTML = "Good RelationShip";
+       }
+       else if(random<=51 || random<=100){
+        document.getElementById("statement").innerHTML = "Lovely RelationShip";
+       }
+    }
+    </script>
+</body>
+</html>
